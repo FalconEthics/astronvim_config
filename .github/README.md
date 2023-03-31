@@ -2,7 +2,7 @@
 
 <img src="./screenshot.png" alt="screenshot"/>
 
-- first uninstall vim `uninstall vim`
+- first remove the og gg vim `uninstall vim`
 - Then install nvim in your machine `https://github.com/neovim/neovim/wiki/Installing-Neovim`
 
 ## 🛠️ Plugins Installation
