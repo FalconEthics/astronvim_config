@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "github_dark_dimmed",
+  colorscheme = "astrodark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -56,7 +56,7 @@ return {
 
   -- Configure require("lazy").setup() options
   lazy = {
-    defaults = { lazy = true},
+    defaults = { lazy = true },
     performance = {
       rtp = {
         -- customize default disabled vim plugins
