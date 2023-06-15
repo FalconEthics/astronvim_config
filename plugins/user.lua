@@ -9,4 +9,24 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/drop.nvim",
+    event = "VimEnter",
+    config = function()
+    require("drop").setup()
+  end,
+  },
+  {
+    "iamcco/markdown-preview.nvim",
+    opt = {}
+  },
+  {
+    'echasnovski/mini.indentscope', version = '*',
+    opt = {}
+  },
+  {
+    "HiPhish/nvim-ts-rainbow2",
+    dependencies = "nvim-treesitter/nvim-treesitter",
+    opt = {}
+  }
 }
