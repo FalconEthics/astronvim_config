@@ -12,6 +12,4 @@ return {
   { import = "astrocommunity.pack.tailwindcss"},
   { import = "astrocommunity.pack.typescript"},
   { import = "astrocommunity.scrolling.nvim-scrollbar"},
-  { import = "astrocommunity.editing-support.nvim-ts-rainbow2"},
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 } 

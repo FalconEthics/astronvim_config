@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "kanagawa",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -33,7 +33,7 @@ return {
       format_on_save = {
         enabled = true, -- enable or disable format on save globally
         allow_filetypes = { -- enable format on save for specified filetypes only
-          "lua", "js", ts, jsx, tsx, c, cpp, md, txt, json, html, css, sass, scss,
+          "lua", "js", "ts", "jsx", "tsx", "c", "cpp", "md", "txt", "json", "html", "css", "sass", "scss",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
