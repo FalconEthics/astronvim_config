@@ -10,13 +10,6 @@ return {
   --   end,
   -- },
   {
-    "folke/drop.nvim",
-    event = "VimEnter",
-    config = function()
-    require("drop").setup()
-  end,
-  },
-  {
     'echasnovski/mini.indentscope', version = '*',
     opt = {}
   },
