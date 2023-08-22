@@ -13,7 +13,7 @@ return {
     },
   },
 
-  colorscheme = "gruvbox",
+  colorscheme = "catppuccin",
 
   diagnostics = {
     virtual_text = true,
